@@ -105,7 +105,7 @@ export default function SignInPage() {
 
    
             <p className="text-center mt-5" >Or</p>
-            <Button onClick={handleGoogleSignIn} className="w-full"> <BsGoogle></BsGoogle> Sign In with Google</Button>
+            <Button onClick={singInWithGoogle} className="w-full"> <BsGoogle></BsGoogle> Sign In with Google</Button>
     </Card>
   );
 }
